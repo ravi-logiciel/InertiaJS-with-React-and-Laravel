@@ -10,7 +10,7 @@ function Home(props) {
                         <div className="card-header">Home Component</div>
 
                         <div className="card-body">
-                            I'm a home component!
+                            I'm a Home component!
                             <ul>
                                 {props.users.map((user) => (
                                     <li key={user.id}>{user.name}</li>

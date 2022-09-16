@@ -7,10 +7,10 @@ function Home(props) {
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <div className="card">
-                        <div className="card-header">Home Component</div>
+                        <div className="card-header">Welcome Component</div>
 
                         <div className="card-body">
-                            I'm a home component!
+                            I'm a Welcome component!
                             <ul>
                                 {props.users.map((user) => (
                                     <li key={user.id}>{user.name}</li>
